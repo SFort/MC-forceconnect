@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "forceconnect",
+  "version": "${version}",
+
+  "name": "Force Connect",
+  "description": "Intended for modpack use,forces player to join a hardcoded server on load",
+  "authors": [
+    "SFort"
+  ],
+  "contact": {
+    "sources": "https://github.com/sfort/mc_forceconnect"
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.sfort.ForceConnect"
+    ]
+  },
+  "mixins": [
+    "forceconnect.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "*"
+  }
+}
