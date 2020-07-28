@@ -9,7 +9,7 @@
     "SFort"
   ],
   "contact": {
-    "sources": "https://github.com/sfort/mc_forceconnect"
+    "sources": "https://github.com/SFort/MC-forceconnect"
   },
 
   "license": "MIT",
@@ -17,7 +17,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.sfort.ForceConnect"
+      "tf.ssf.sfort.ForceConnect"
     ]
   },
   "mixins": [
