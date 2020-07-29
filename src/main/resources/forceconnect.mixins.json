@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.sfort.mixin",
+  "package": "tf.ssf.sfort.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "MultiplayerMenu"
   ],
   "injectors": {
     "defaultRequire": 1
